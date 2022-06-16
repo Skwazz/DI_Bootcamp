@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(237, 237, 237);
+}
+
+form {
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 25px;
+  padding: 40px;
+  width: 10%;
+  margin-top: 10%;
+  box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.58);
+}
+
+.inputs label,
+input {
+  display: block;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.inputs input {
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  background-color: rgb(225, 225, 225);
+  margin-top: 10px;
+}
+
+.inputs label {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.inputs input:hover {
+  transform: scale(1.1);
+  border: 1px solid rgb(59, 59, 59);
+}
+
+.inputs-login label,
+input {
+  display: block;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.inputs-login input {
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  background-color: rgb(225, 225, 225);
+  margin-top: 10px;
+}
+
+.inputs-login label {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.inputs-login input:hover {
+  transform: scale(1.1);
+  border: 1px solid rgb(59, 59, 59);
+}
+
+.logBtn {
+  display: block;
+  margin-left: 24%;
+  margin-top: 30px;
+  font-weight: bold;
+  padding: 15px;
+  width: 50%;
+  color: black;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+  border: none;
+}
+
+.logBtn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.regBtn {
+  display: block;
+  margin-left: 24%;
+  margin-top: 30px;
+  font-weight: bold;
+  padding: 15px;
+  width: 50%;
+  color: black;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+  border: none;
+}
+
+.regBtn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}

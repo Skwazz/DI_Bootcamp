@@ -1,0 +1,5 @@
+body {
+  background-image: url("../assets/paris.jpg") !important;
+  background-color: none !important;
+  background-size: cover;
+}

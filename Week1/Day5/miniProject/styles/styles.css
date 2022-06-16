@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(237, 237, 237);
+}
+.navbar {
+  background-color: #111;
+  color: white;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.logo {
+  font-size: 3rem;
+  margin-left: 0.5em;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .link {
+  color: white;
+  float: right;
+  text-decoration: none;
+  padding: 0.6rem 1.5rem;
+  margin-left: 0.8rem;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.navbar .link:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.upper-card img {
+  height: 35vh;
+}
+
+.cards_container {
+  position: relative;
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+  margin-top: 5vh;
+  margin-left: 6.5%;
+  margin-bottom: 6.5%;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.card {
+  position: relative;
+
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.58);
+}
+
+.card:hover {
+  box-shadow: 0px 0px 20px 8px rgba(81, 81, 81, 0.58);
+  transform: scale(1.05);
+}
+
+.lower-card .new-price {
+  display: inline-block;
+  color: rgb(0, 93, 0);
+}
+.lower-card button {
+  display: block;
+  margin-left: 28%;
+  font-weight: bold;
+  padding: 8px;
+  color: black;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+  border: none;
+}
+
+.lower-card button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.lower-card .old-price {
+  font-size: 13px;
+  text-decoration-line: line-through;
+}
+
+.new {
+  position: absolute;
+  background-color: rgb(40, 149, 91);
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  top: 3%;
+  left: 6%;
+  border-radius: 50%;
+  margin-top: 10px;
+  border-color: #111;
+}
+
+.new p {
+  position: absolute;
+  margin-top: 0;
+  left: 9%;
+  color: white;
+}
+
+.discount {
+  position: absolute;
+  background-color: rgb(255, 52, 52);
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  top: 3%;
+  right: 6%;
+  border-radius: 50%;
+  margin-top: 10px;
+  border-color: #111;
+}
+
+.discount p {
+  position: absolute;
+  margin-top: 0;
+  right: 6%;
+  color: white;
+}
+
+.title {
+  padding-bottom: 10px;
+  margin-top: 50px;
+  margin-left: 50px;
+  float: left;
+  width: 50%;
+  font-family: Lucida;
+  font-weight: bold;
+  font-size: 200px;
+}
