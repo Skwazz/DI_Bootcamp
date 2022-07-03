@@ -10,9 +10,7 @@ console.log(people);
 
 // 1.2
 
-people[2] = people[2].replace(/James/g, `Jason`);
-
-console.log(people);
+let changeJamesToJason = people.splice(people.indexOf("Greg"), 1, "Jason");
 
 // 1.3
 
@@ -163,4 +161,3 @@ for (let index = 0; index < namesAlphabeticalOrder.length; index++) {
     const element = namesAlphabeticalOrder[index];
     console.log(element.charAt(0));
 }
-
