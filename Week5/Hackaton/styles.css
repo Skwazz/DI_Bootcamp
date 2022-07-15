@@ -1,0 +1,55 @@
+body {
+  background-color: #4b4a5a;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.diceLeft,
+.diceRight {
+  display: inline-block;
+}
+.diceLeft {
+  margin-right: 5em;
+  color: #00A36C;
+}
+
+.player1{
+  color: #00A36C;
+ 
+}
+
+h1 {
+  margin: 30px;
+
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #e1d5d2;
+}
+
+p {
+  font-size: 4rem;
+  color: #e79a58;
+  text-shadow: 5px 0 #232931;
+}
+
+button {
+  margin: 3rem;
+  font-size: 3em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 20px;
+  background-color: #00A36C;
+  color: white;
+}
+
+h2 {
+  font-size: 6rem;
+  color: #e1d5d2;
+  text-shadow: 5px 0 #232931;
+}

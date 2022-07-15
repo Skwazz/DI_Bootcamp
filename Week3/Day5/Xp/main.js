@@ -134,21 +134,17 @@ for (const key in family) {
         }
     }
 
-// // Exercise 6    
+// Exercise 6    
 
-// let details = {
-//   my: 'name',
-//   is: 'Rudolf',
-//   the: 'raindeer',
-// }
+let details = {
+  my: 'name',
+  is: 'Rudolf',
+  the: 'raindeer',
+}
+  for (let i in details){
+    console.log(`${Object.keys(details)[0]} ${Object.values(details)[0]} ${Object.keys(details)[1]} ${Object.values(details)[1]} ${Object.keys(details)[2]} ${Object.values(details)[2]}`);
+}
 
-
-// for (let i=0; i < details.length; i++) { 
-//     console.log(details[i], details[keys[i]]);
-//  }
-
-
-// ^Couldn't figure that one out ^
 
 
 // Exercise 7 : Secret Group
@@ -160,4 +156,5 @@ let namesAlphabeticalOrder = names.sort()
 for (let index = 0; index < namesAlphabeticalOrder.length; index++) {
     const element = namesAlphabeticalOrder[index];
     console.log(element.charAt(0));
+
 }

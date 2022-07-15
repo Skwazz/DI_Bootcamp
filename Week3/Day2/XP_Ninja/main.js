@@ -33,17 +33,39 @@ true != true;
 
 // Exercise 3 : Find Nemo :
 
-let nemo = prompt(`Provide a sentance with the word : "Nemo"`);
+// let nemo = prompt(`Provide a sentance with the word : "Nemo"`);
 
-function findNemo() {
+// function findNemo() {
 
-  let position = nemo.split(" ").indexOf("Nemo");
+//   let position = nemo.split(" ").indexOf("Nemo");
 
-  if (nemo.split(" ").indexOf("Nemo") + 1) {
-    alert(`I found Nemo at ${position}`);
-  } else {
-    console.log("I can't find Nemo");
-  }
+//   if (nemo.split(" ").indexOf("Nemo") + 1) {
+//     alert(`I found Nemo at ${position}`);
+//   } else {
+//     console.log("I can't find Nemo");
+//   }
+// }
+
+// findNemo();
+
+// Exercise 4 : Boom :
+
+let boom = prompt(`Boom game!
+Enter your number: `);
+
+function boomGame() {
+
+  if (boom < 2) {
+    console.log('boom');}
+   if (boom >= 2) {
+    console.log(`b${"o".repeat(boom)}m`);
+   }if(boom % 2 === 0 ){
+    console.log(`b${"o".repeat(boom)}m!`);
+    if (boom % 5 === 0 ) {
+     console.log(`B${"O".repeat(boom)}M`);
+   }
+}
 }
 
-findNemo();
+
+boomGame();

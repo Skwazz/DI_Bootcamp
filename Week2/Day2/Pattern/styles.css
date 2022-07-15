@@ -1,0 +1,49 @@
+body,html{
+    margin: 0;
+    width: 100px;
+}
+.cube1{
+    display: flex;
+    border: 1px black solid;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.cube2{
+    display: flex;
+    border: 1px black solid;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.cube3{
+    display: flex;
+    border: 1px black solid;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.cube4{
+    display: flex;
+    border: 1px black solid;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.cube5{
+    display: flex;
+    border: 1px black solid;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    flex-direction: row-reverse;
+}
