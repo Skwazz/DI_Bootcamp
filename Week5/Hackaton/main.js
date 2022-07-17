@@ -10,7 +10,7 @@ let startGame = () => {
 
   if (randomNumber1 > randomNumber2) {
     document.querySelector(`h2`).innerText = `Player 1 Wins!`;
-    document.querySelector(`h2`).style.color = `#00A36C`
+    document.querySelector(`h2`).style.color = `#00A36C`;
   } else if (randomNumber2 > randomNumber1) {
     document.querySelector(`h2`).innerText = `Player 2 Wins!`;
     document.querySelector(`h2`).style.color = `#e79a58`;
@@ -24,10 +24,14 @@ let buttonThrow = document
   .addEventListener(`click`, (e) => {
     e.target.style.backgroundColor = `#8B0000`;
     e.target.style.color = `white`;
-    e.target.innerText = `Click To Throw Again!`;
+
     startGame(e);
-    setInterval(() => {
-      window.location.reload();
-    }, 5000);
+    document.querySelector(`button`).innerText = `Click To Throw Again`;
   });
 
+let refreshButton = document
+  .querySelector(`.refresh`)
+  .addEventListener(`click`, (e) => {
+    e.target.style.backgroundColor = "#8B0000";
+    window.location.reload();
+  });
