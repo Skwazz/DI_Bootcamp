@@ -1,0 +1,27 @@
+HTML:
+    Mostly short and sweet haha.  Only thing would be that although it's totally fine to use 1 stylesheet for 2 different pages, if you have styles that are unique to a specific page, they should be in their own file and shouldn't be imported into the other page.
+
+
+CSS:
+    Things that were done well:
+        - Good use of Bootstrap for main styles.  No need to start from scratch if you like Bootstrap as a base.
+        - Really good general styles.  It's always good to have a good balance between specificity and reusability for styles.  Meaning, there's no need to make a specific class for every single type of style like ".margin-0 { margin: 0; }".  That would be silly.  At the same time, it's also not so good to repeat styles that are shared between a lot of elements.  If a lot of different elements are using the same styles, perhaps those styles should be in their own reusable class.  In your case, I think you mostly had a good balance. :)
+    
+    Things to improve:
+        - Since you ARE using Bootstrap, try to maybe be a bit more careful next time to use Bootstrap classes that already exist!  Meaning, you have a class ".rulesH1", for example, in your rules.html page.  All it does is make margin 0.  In that case, the Bootstrap class "m-0" would've already done the exact same thing.
+
+
+JS:
+    Things that were done well:
+        - Nice and short.
+        - Functions not too big, so the code is split up nicely.
+
+    Things to improve:
+        - All the "let"s in your code should be "const"s.  I tried finding a variable or function that might have a good excuse for being a "let", but I couldn't find one. lol 😆
+        - In lines 12/13,15/16,18/19, you are doing "document.querySelector(`h2`)".  This element is the same element every time. More efficient to just store the reference to this DOM element in a variable, like "const h2 = document.querySelector(`h2`)" then reference that variable.
+        - Lines 22 and 32: No need to store the result of the function calls into the variables "buttonThrow" and "refreshButton".  These variables aren't used anywhere anyway.
+
+
+OVERALL:
+    Short and sweet.  I already like the cleanliness.  Even tabs for the win!! 😂
+    I only got to teach you for a short amount of time, but I can tell that you like to and can get into things deeply. May you go from strength to strength.  Keep growing, keep pushing, and I know you'll do great. 😄
