@@ -45,3 +45,77 @@ console.log(Object.entries(users));
 // Modify the outcome of part 1, by multipling the user’s ID by 2.
 // Excepted output: [ [ 'user1', 36546 ], [ 'user2', 185666 ], [ 'user3', 180630 ] ]
 // ------------------------------------------------
+
+// ex 4
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+const member = new Person("John");
+console.log(typeof member);
+
+// output would be an Object
+
+// ex 5
+
+class Dog {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+// 2
+class Labrador extends Dog {
+  constructor(name, size) {
+    super(name);
+    this.size = size;
+  }
+}
+
+// Number 2 would be the correct one
+
+// Ex 6
+
+//  [2] === [2]
+// false because they are in different place on memory
+//  {} === {}
+// false because they are in different place on memory
+
+// Part II:
+
+const object1 = { number: 5 };
+const object2 = object1;
+const object3 = object2;
+const object4 = { number: 5 };
+
+object1.number = 4;
+// console.log(object2.number) will log 4
+// console.log(object3.number); will log 4
+// console.log(object4.number); will log 5
+//  Because we set object 1 = 4 so now object 1 will be = 4 and object 2 and 3 will be equal to new object1
+//  object4 will be 5 because we redeclaring the number to 5
+
+// part III
+
+//1
+class Animal {
+  constructor(name, type, color) {
+    this.name = name;
+    this.type = type;
+    this.color = color;
+  }
+}
+//2
+class Mamal extends Animal {
+  constructor(name, type, color) {
+    super(name, type, color);
+  }
+  sound(sound) {
+    return `${sound} I'm a ${this.type} named ${this.name} and i'm ${this.color}`;
+  }
+}
+//3
+const farmerCow = new Mamal("Lily", "Cow", "Brown and White");
+console.log(farmerCow.sound("Moooooo"));
