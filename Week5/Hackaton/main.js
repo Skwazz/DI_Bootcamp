@@ -24,10 +24,22 @@ let buttonThrow = document
   .addEventListener(`click`, (e) => {
     e.target.style.backgroundColor = `#8B0000`;
     e.target.style.color = `white`;
-    e.target.innerText = `Click To Throw Again!`;
+   
     startGame(e);
-    setInterval(() => {
-      window.location.reload();
+    let countDown = setInterval(() => {
+        
     }, 5000);
+    let i = 5;
+    document
+    .querySelector(`button`).innerText = `Wait for ${i}`
+    if(i === 0) {
+        clearInterval(countDown);
+        document.querySelector(`button`).innerText = `Try Again`
+    }else {
+        i--;
+    }
   });
 
+ 
+ 
+ 
