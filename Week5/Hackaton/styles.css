@@ -1,9 +1,17 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+}
 body {
   background-color: #4b4a5a;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-
+nav {
+  background-color: #00a36c;
+  position: sticky;
+}
 .container {
   width: 70%;
   margin: auto;
@@ -16,17 +24,14 @@ body {
 }
 .diceLeft {
   margin-right: 5em;
-  color: #00A36C;
+  color: #00a36c;
 }
 
-.player1{
-  color: #00A36C;
- 
+.player1 {
+  color: #00a36c;
 }
 
 h1 {
-  margin: 30px;
-
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
   color: #e1d5d2;
@@ -36,6 +41,7 @@ p {
   font-size: 4rem;
   color: #e79a58;
   text-shadow: 5px 0 #232931;
+  margin: 0;
 }
 
 button {
@@ -44,12 +50,52 @@ button {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   border-radius: 20px;
-  background-color: #00A36C;
+  background-color: #00a36c;
   color: white;
 }
 
 h2 {
+  position: relative;
   font-size: 6rem;
   color: #e1d5d2;
   text-shadow: 5px 0 #232931;
+  margin: 0;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style: none;
+  display: inline;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #e1d5d2;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+}
+a:hover {
+  color: #e79a58;
+}
+
+.rules {
+  margin-left: 38.9em;
+}
+
+.refresh {
+  font-size: 1.5em;
+  background-color: #e79a58;
+}
+.rulesH1 {
+  margin: 0;
+}
+
+footer {
+  background-color: #232931;
+  color: #e1d5d2;
+  text-align: center;
 }
