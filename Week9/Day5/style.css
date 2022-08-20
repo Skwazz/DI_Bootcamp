@@ -1,0 +1,46 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url(./img/Bg.jpg);
+    background-size: cover;
+}
+
+#content{
+    display: flex;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    border: 25px yellow solid ;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 60px;
+    padding-left: 0px;
+    margin-left: 1000px;
+    padding-right: 50px
+}
+
+img{
+    display: flex;
+    width: 60em;
+    padding-left: 50em;
+}
+
+p{
+    font-size: 2em;
+    text-align: center;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    border: 1px yellow solid;
+    font-size: 4em;
+    margin: auto;
+    background-color: gold;
+    color: azure;
+    
+}
